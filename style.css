@@ -7,7 +7,7 @@
 .blink-it-navbar{
     border-bottom: 1px solid rgb(238, 238, 238);
     height: 86px;
-    background: white;
+    background: rgb(221, 33, 33);
     
     
 }
@@ -38,7 +38,7 @@
 }
 .search-bar>input{
     border: none;
-    background: #f8f8f8;
+    background: #881818;
     width: 90%;
     background-color: transparent;
     font-size: 14px;
@@ -49,14 +49,19 @@
 .hero-section-1>img{
     width: 84vw;
 }
+.my-hero-section>img{
+    width: 84vw;
+    /* margin-inline: auto; */
+}
 .my-scrollable-div{
     display: flex;
     justify-content: center;
     align-items: center;
     margin-inline: auto;
     overflow-x: auto;
-    width: 85vw;
+    width: 84vw;
     /* display: none; */
+    padding: 10px;
 
 }
 /* .list::-webkit-scrollbar{
@@ -76,30 +81,45 @@
 } */
 /* .my-categories-div{
     padding: 10px;
-} */
-
+}  */
+.main{
+    display: flex;
+    flex-direction: column;
+    width: 84vw;
+    margin-inline: auto;
+    
+}
+.main>h3{
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+.main-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 .my-categories-row{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    width: 83vw;
+    width: 84vw;
     margin-inline: auto;
 }
-/* .my-category-row{
+ /* .my-category-row{
     width: 85vw;
     justify-content: center;
     margin-inline: auto;
-} */
-/* .my-category-row{
+} 
+ .my-category-row{
     display: flex;
     justify-content: flex-start;
-}
+} */
 .time-taken{
     padding-left: 5px;
 text-decoration: dotted;
-} */
+} 
 .my-card{
     width: 190px;
     box-sizing: border-box;
@@ -156,17 +176,16 @@ text-decoration: dotted;
     margin-right: 12px;
     column-gap: 20px;
 }
-/* .my-footer{
-    display: flex;
-    flex-direction: column;
+ .my-footer{
+   width: 84vw;
     margin-inline: auto;
     align-items: center;
-} */
+} 
  .row-2{
     display: flex;
     justify-content: space-between;
     align-items: center;
-   width: 100%;
+   /* width: 84vw; */
 }
 .row-2-col-1{
     /* display: flex;
